@@ -1,0 +1,10 @@
+*.~
+*.swp
+
+/bundle/engspchk/CVIMSYN/engspchk.usr
+
+!/bundle/
+!.gitignore
+!.vimrc
+!_vimrc
+!README.md
