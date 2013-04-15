@@ -106,14 +106,10 @@ endif
 
 " Plugin variables
     let g:rbpt_colorpairs = [
-        \ ['brown',       '#00ffff'],
-        \ ['gray',        '#00ff00'],
-        \ ['black',       '#ffff00'],
-        \ ['darkmagenta', '#ff8800'],
-        \ ['darkblue',    '#ff0000'],
-        \ ['darkgreen',   '#ff00ff'],
-        \ ['darkcyan',    '#8800ff'],
-        \ ['darkred',     '#0000ff'],
-        \ ['red',         '#0088ff'],
+        \ ['cyan',       'cyan'],
+        \ ['green',      'green'],
+        \ ['yellow',     'yellow'],
+        \ ['red',        'red'],
+        \ ['blue',       'blue'],
         \ ]
     let g:rbpt_max = 50
