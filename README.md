@@ -19,13 +19,14 @@ This is the easiest way to install this bundle, as all dependencies will be reso
 ### Installing without git
 Why would you do this? It's a pain!
 
-1. Get [vim](http://www.vim.org/download.php)<sup>m</sup> for your linux distribution.
-2. Go through your /.vim/bundle directory, and find all empty plugin directories.
-3. Find the link in this readme that points to the github repository for each missing plugin.
-4. Download that plugin and place it in that folder.
-5. Repeat until all plugin folders have a plugin.
-6. Symlink ~/.vimrc to ~/.vim/.vimrc.
-7. Question yourself for ever choosing this method.
+1. Get [vim](http://www.vim.org/download.php) for your linux distribution.
+2. Place these files in ~/.vim.
+3. Go through your /.vim/bundle directory, and find all empty plugin directories.
+4. Find the link in this readme that points to the github repository for each missing plugin.
+5. Download that plugin and place it in that folder.
+6. Repeat until all plugin folders have a plugin.
+7. Symlink ~/.vimrc to ~/.vim/.vimrc.
+8. Question yourself for ever choosing this method.
 
 Ignoring these steps will break this vim bundle, as one of the dependencies is pathogen, the plugin that manages all the other plugins! You __must__ manually install pathogen at the very least!
 
@@ -34,7 +35,9 @@ Ignoring these steps will break this vim bundle, as one of the dependencies is p
 If you really want to understand what is going on with this flavour of vim versus the standard distribution, I really reccomend looking through the vimrc. However, here are the most notable customisations.
 
 ### Custom keybindings
-I dislike having to reach all the way to the corner to press escape all the time. So I usually rebind capslock systemwide to escape on my computers. However, I find that this little trick also is useful. Having `imap jk <esc>` and `imap kj <esc>` makes it so I can just mash `j` and `k` to return to normal mode.
+I dislike having to reach all the way to the corner to press escape all the time. So I find that this little trick saves me a ton of time and effort. Having `imap jk <esc>` and `imap kj <esc>` makes it so I can just mash `j` and `k` to return to normal mode.
+
+I manipulate partner files to files I'm editing often, and like to have a file explorer window open in the current directory often. I bound `<c-e>` to `:silent !explorer .<cr>` to accomplish this.
 
 I like `<c-a>` for select all. I'm just used to it. So I use `(i)map <c-a> <esc>ggVG` to emulate it.
 
