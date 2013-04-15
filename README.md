@@ -1,11 +1,9 @@
 # ora's linux-flavored vim
 
 ## A set of customizations for speedy development
-This is the GVim setup I use on Linux Systems. Feel free to use it!
+This is the vim setup I use on Linux Systems. Feel free to use it!
 
 __Note__: This bundle is from a Linux environment. Using it on a non-linux machine may provide less-than-complete functionality.
-
-I will never test this myself on a Mac, in all likelihood. If you want to send a pull request with a working version for Macs, feel free, and I may include it!
 
 ## Installation instructions
 It is really reccomended that you download this with git. It will automate dependency resolution for you, and be a lot less painful.
@@ -14,7 +12,7 @@ It is really reccomended that you download this with git. It will automate depen
 This is the easiest way to install this bundle, as all dependencies will be resolved for you (semi)automatically.
 
 1. Get [vim](http://www.vim.org/download.php)<sup>m</sup> for your linux distribution.
-2. Clone this repository with `git clone https://github.com/orablu/vim.git` to ~/.vim.
+2. Clone this repository with `git clone https://github.com/orablu/vim-linux.git` to ~/.vim.
 3. Download dependencies with `git submodule init` then `git submodule update` (You may need to call `git submodule update` immediately again if there is a newer version of a plugin available).
 4. Symlink ~/.vimrc to ~/.vim/.vimrc.
 
@@ -26,8 +24,8 @@ Why would you do this? It's a pain!
 3. Find the link in this readme that points to the github repository for each missing plugin.
 4. Download that plugin and place it in that folder.
 5. Repeat until all plugin folders have a plugin.
-6. Question yourself for ever choosing this method.
-7. Symlink ~/.vimrc to ~/.vim/.vimrc.
+6. Symlink ~/.vimrc to ~/.vim/.vimrc.
+7. Question yourself for ever choosing this method.
 
 Ignoring these steps will break this vim bundle, as one of the dependencies is pathogen, the plugin that manages all the other plugins! You __must__ manually install pathogen at the very least!
 
