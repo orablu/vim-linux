@@ -11,7 +11,7 @@ It is really reccomended that you download this with git. It will automate depen
 ### Installing with git
 This is the easiest way to install this bundle, as all dependencies will be resolved for you (semi)automatically.
 
-1. Get [vim](http://www.vim.org/download.php)<sup>m</sup> for your linux distribution.
+1. Get [vim](http://www.vim.org/download.php) for your linux distribution.
 2. Clone this repository with `git clone https://github.com/orablu/vim-linux.git` to ~/.vim.
 3. Download dependencies with `git submodule init` then `git submodule update` (You may need to call `git submodule update` immediately again if there is a newer version of a plugin available).
 4. Symlink ~/.vimrc to ~/.vim/.vimrc.
