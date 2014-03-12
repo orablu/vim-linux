@@ -5,7 +5,7 @@
 
 " Top-level settings
     set nocompatible
-    cd ~/Documents
+    cd ~/documents
 
 " Choose a colorscheme
     colorscheme molokai
@@ -62,6 +62,7 @@ set foldmethod=syntax
 " Visual aesthetics
     set nowrap
     set number
+    set relativenumber
     set showcmd
     set ruler
 
@@ -85,8 +86,8 @@ set foldmethod=syntax
 
 " GUI-specific settings
 if has("gui")
-    set guifont=Consolas\ for\ Powerline\ FixedD:h12
-    let g:Powerline_symbols="fancy"
+    "set guifont=Consolas\ for\ Powerline\ FixedD:h12
+    "let g:Powerline_symbols="fancy"
 endif
 
 " Autocommands
